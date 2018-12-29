@@ -104,10 +104,18 @@ p:last-child { margin-bottom: 0; }
     border: 1px solid white;
 }
 
+
+.navbar-brand small {
+  display:block;
+  font-size:10px;
+}
+
 .navbar-brand:hover,
 .navbar-brand:focus {
 	color: white;
 }
+
+
 
 .nav-item {
 	float: left;
