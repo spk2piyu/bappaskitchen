@@ -361,6 +361,10 @@ p:last-child { margin-bottom: 0; }
 	text-decoration: none;
 }
 
+.slick-prev:before, .slick-next:before{
+    color:red;
+}
+
 @media screen and (max-width: 1400px) {
 	.navbar-nav .nav-link,
 	.navbar-nav .nav-link:focus { padding: 0.4em 0.8em; }
@@ -490,4 +494,7 @@ p:last-child { margin-bottom: 0; }
 	}
 
 	.tm-home-right { padding: 2em; }
+	
+	
+	
 }
